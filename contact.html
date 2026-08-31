@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>צור קשר / הצעת מחיר | פילבו מחסני היבואן</title>
+<meta name="description" content="השאירו פרטים ונחזור אליכם. לקוחות פרטיים, עסקים ומוסדות — הצעת מחיר מותאמת להיקף ההזמנה.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="wrap header__inner">
+    <a class="logo" href="index.html"><span class="logo__mark">פ</span><span class="logo__txt">פילבו<small>מחסני היבואן</small></span></a>
+    <button class="burger" aria-label="פתיחת תפריט" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="index.html">דף הבית</a><a href="about.html">אודות</a><a href="institutional.html">המגזר המוסדי</a>
+      <a href="products.html">מוצרים</a><a href="brands.html">מותגים</a><a href="clients.html">לקוחות</a>
+      <a href="catalog.html">קטלוג</a><a class="btn btn--primary" href="contact.html">הצעת מחיר</a>
+    </nav>
+  </div>
+</header>
+
+<section class="phero">
+  <div class="wrap">
+    <div class="crumbs"><a href="index.html">דף הבית</a> / צור קשר</div>
+    <h1>נשמח לשמוע מכם</h1>
+    <p>טופס קצר, מענה אנושי. ללקוחות מוסדיים — סמנו זאת ונעביר אתכם ישירות לאיש הקשר המתאים.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <div class="reveal">
+      <span class="eyebrow">דרכי התקשרות</span><div class="rule"></div>
+      <h2 style="font-size:36px">מדברים איתנו ישירות</h2>
+      <ul class="ticks">
+        <li>מענה אנושי מהמשפחה — לא מוקד</li>
+        <li>הצעת מחיר מותאמת להיקף ההזמנה</li>
+        <li>ליווי מבחירת המוצרים ועד האספקה</li>
+      </ul>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:34px">
+        <a class="btn btn--wa" href="https://wa.me/972000000000">וואטסאפ</a>
+        <a class="btn btn--outline" href="tel:+972000000000">התקשרו אלינו</a>
+      </div>
+      <div class="card">
+        <h3>פרטי הקשר</h3>
+        <p><b>טלפון:</b> 000-0000000<br>
+           <b>דוא״ל:</b> info@filbo.co.il<br>
+           <b>כתובת המחסן:</b> לעדכון<br>
+           <b>שעות פעילות:</b> א׳–ה׳ 08:00–17:00, ו׳ 08:00–13:00</p>
+      </div>
+    </div>
+
+    <form class="form reveal" id="lead-form" data-delay="120">
+      <h3 style="margin:0">בקשת הצעת מחיר</h3>
+      <div id="form-ok" class="form__ok">תודה! הפנייה נשלחה ונחזור אליכם בהקדם.</div>
+      <div class="row">
+        <div class="field"><label for="name">שם מלא</label><input id="name" name="name" required placeholder="השם שלכם"></div>
+        <div class="field"><label for="phone">טלפון</label><input id="phone" name="phone" type="tel" required placeholder="050-0000000"></div>
+      </div>
+      <div class="row">
+        <div class="field"><label for="email">דוא״ל</label><input id="email" name="email" type="email" placeholder="name@example.com"></div>
+        <div class="field"><label for="org">שם הארגון / המוסד</label><input id="org" name="org" placeholder="אופציונלי"></div>
+      </div>
+      <div class="field"><label for="type">סוג לקוח</label>
+        <select id="type" name="type">
+          <option>לקוח פרטי</option>
+          <option>עסק</option>
+          <option>מוסד / גוף ציבורי</option>
+          <option>מטבח מוסדי / קייטרינג</option>
+        </select>
+      </div>
+      <div class="field"><label for="msg">מה אתם מחפשים?</label><textarea id="msg" name="msg" rows="5" placeholder="כמה מילים על הצורך, הכמויות ולוח הזמנים"></textarea></div>
+      <button class="btn btn--primary" type="submit" style="justify-content:center">שלחו לנו הודעה</button>
+      <p style="font-size:13px;color:var(--grey);margin:0">הטופס הוא הדגמה בצד לקוח בלבד. לחיבור אמיתי — הפנו את ה־action לשירות טפסים או ל־API של האתר.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div><div class="logo" style="color:#fff;margin-bottom:14px"><span class="logo__mark">פ</span><span class="logo__txt">פילבו<small style="color:#8A8A8A">מחסני היבואן</small></span></div>
+        <p>פילבו — ניסיון של דורות במטבח הישראלי.</p></div>
+      <div><h4>ניווט</h4><ul><li><a href="about.html">אודות פילבו</a></li><li><a href="institutional.html">המגזר המוסדי</a></li><li><a href="products.html">המוצרים שלנו</a></li><li><a href="brands.html">מותגים</a></li></ul></div>
+      <div><h4>מידע</h4><ul><li><a href="clients.html">לקוחות ופרויקטים</a></li><li><a href="catalog.html">קטלוג</a></li><li><a href="contact.html">צור קשר</a></li></ul></div>
+      <div><h4>יצירת קשר</h4><ul><li><a href="tel:+972000000000">טלפון: 000-0000000</a></li><li><a href="https://wa.me/972000000000">וואטסאפ</a></li><li><a href="mailto:info@filbo.co.il">info@filbo.co.il</a></li></ul></div>
+    </div>
+    <div class="footer__bottom"><span>© <span id="year">2026</span> פילבו מחסני היבואן.</span><span>עסק משפחתי ישראלי מאז שנות ה־30</span></div>
+  </div>
+</footer>
+<a class="fab" href="https://wa.me/972000000000" aria-label="וואטסאפ">✆</a>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
